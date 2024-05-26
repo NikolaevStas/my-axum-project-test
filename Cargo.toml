@@ -1,0 +1,16 @@
+[package]
+name = "my-axum-project-test"
+version = "0.1.0"
+authors = ["Stas <nikolaev.stas92@mail.ru>"]
+edition = "2018"
+
+[dependencies]
+axum = "0.3.0"
+tokio = { version = "1.8.0", features = ["full"] }
+tower-http = { version = "0.2.0", features = ["full"] }
+serde = { version = "1.0.130", features = ["derive"] }
+tracing-subscriber = "0.3.1"
+
+[bin]
+name = "main"
+
